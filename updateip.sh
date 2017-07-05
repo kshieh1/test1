@@ -15,6 +15,7 @@ if [[ "${IPADDRESS}" != $(cat current_ip) ]];then
 echo "Ip change from $(cat current_ip) to ${IPADDRESS}" >> updateip.log
 echo ${IPADDRESS} > current_ip
 
+# push to Github
 git add -u
 git commit -m "Automatic save commit initiated at $(date)"
 git push
