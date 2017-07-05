@@ -2,6 +2,7 @@
 
 # required for using this script in crontab
 cd /home/pi/updateip
+
 #export SSH_AGENT_PID=`ps -a | grep ssh-agent | grep -o -e [0-9][0-9][0-9][0-9]`
 #export SSH_AUTH_SOCK=`find /tmp/ -path '*keyring-*' -name '*ssh*' -print 2>/dev/null`
 
