@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 git pull
-cat current_ip
+echo "Current IP: $(cat current_ip)"
 

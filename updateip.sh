@@ -14,6 +14,7 @@ if [[ "${IPADDRESS}" != $(cat current_ip) ]];then
 
 echo "Ip change from $(cat current_ip) to ${IPADDRESS}" >> updateip.log
 echo ${IPADDRESS} > current_ip
+echo "<html><p>$(cat current_ip)</p></html>" > current_ip.html
 
 # push to Github
 git add -u
